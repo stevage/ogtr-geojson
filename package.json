@@ -1,0 +1,15 @@
+{
+  "name": "ogtr-geojson",
+  "version": "0.0.1",
+  "description": "Convert map markers from Office of the Gene Technology Regulator to GeoJSON.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve Bennett, Data61",
+  "license": "MIT",
+  "dependencies": {
+    "http": "0.0.0",
+    "xml2json": "^0.9.0"
+  }
+}
