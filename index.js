@@ -13,7 +13,7 @@ function markersToGeoJSON(markers) {
                 name: '#' + m.site + ' ' + m.licence + ' (' + m.organism + ')',
                 description: m.holder + '. <br/><br/>' + 
                              'Trait: ' + m.trait + '<br/>' +
-                             'Status: ' + m.status,
+                             'Status: ' + (m.status === 'PHM' ? 'Post-harvest monitoring' : m.status),
                 'marker-color': (m.status === 'PHM' ? 'hsl(10,80%,60%)' : 'hsl(60,80%,60%)'),
                 'marker-size': 'medium',
                 'marker-symbol': 'garden'
