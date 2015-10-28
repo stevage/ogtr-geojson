@@ -9,6 +9,7 @@
   "author": "Steve Bennett, Data61",
   "license": "MIT",
   "dependencies": {
+    "entities": "^1.1.1",
     "http": "0.0.0",
     "xml2json": "^0.9.0"
   }
